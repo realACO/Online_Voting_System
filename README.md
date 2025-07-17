@@ -44,7 +44,12 @@ This is an Online Voting System built using basic web technologies like HTML, CS
 
 > ⚠️ Note: This project is currently available for local use only. You can run it on a PHP server like XAMPP by following the setup instructions.
 
+## 🧠 What I Learned
 
+- How to structure a full-stack PHP project
+- Session handling in PHP
+- Working with MySQL and form data
+- Basic UI design with HTML and CSS
 
 
  
