@@ -1,5 +1,4 @@
 # 🗳️ Online Voting System
-
 An online voting web application built using PHP and MySQL that allows registered users to vote for candidates securely and only once. It also includes an admin panel to view results in real time.
 
 ## 💡 Features
@@ -40,6 +39,8 @@ An online voting web application built using PHP and MySQL that allows registere
  <img width="1349" height="638" alt="OUINMI" src="https://github.com/user-attachments/assets/0721fbbf-ec6e-4d27-9e08-a9a7f29fecd8" />
 <img width="1351" height="645" alt="OFGNBFG" src="https://github.com/user-attachments/assets/bd3ef7b9-3ab3-4e8a-a9df-95c610080276" />
 <img width="1352" height="627" alt="RYBTHB" src="https://github.com/user-attachments/assets/237b5d24-9247-45a3-a537-791dbf837799" />
+
+> ⚠️ Note: This project is currently available for local use only. You can run it on a PHP server like XAMPP by following the setup instructions.
 
 
 
