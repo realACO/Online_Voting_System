@@ -39,70 +39,81 @@ Edit
 
 ---
 
-# 🔧 Setup Instructions (XAMPP)
+# 🗳️ Online Voting System
 
-### Download or Clone the Repository
+## 🔧 Setup Instructions (XAMPP)
+
+### 1. Download or Clone the Repository
 ```bash
 git clone https://github.com/realACO/Online_Voting_System.git
-Place the folder inside the htdocs directory of your XAMPP installation. Example:
+```
 
-makefile
-Copy
-Edit
+Place the folder inside the `htdocs` directory of your XAMPP installation. Example:
+
+```
 C:\xampp\htdocs\Online_Voting_System
-Open the XAMPP Control Panel
-Start Apache and MySQL modules
+```
 
-Create the Database
-Open phpMyAdmin
+---
 
-Create a new database, e.g. online_voting
+### 2. Open the XAMPP Control Panel
+- Start **Apache** and **MySQL** modules
 
-Import the provided SQL file or manually create tables based on the api scripts
+---
 
-Configure Database Connection
-Edit api/config.php (or equivalent) and update with your local DB credentials:
+### 3. Create the Database
+1. Open **phpMyAdmin**  
+2. Create a new database, e.g. `online_voting`  
+3. Import the provided SQL file or manually create tables based on the `api` scripts  
 
-php
-Copy
-Edit
+---
+
+### 4. Configure Database Connection
+Edit `api/config.php` (or equivalent) and update with your local DB credentials:
+
+```php
 <?php
 $host = "localhost";
 $user = "root"; // default XAMPP user
 $pass = "";     // default is empty
 $db   = "online_voting";
 ?>
-Run the Project
+```
+
+---
+
+### 5. Run the Project
 Open your browser and go to:
 
-arduino
-Copy
-Edit
+```
 http://localhost/Online_Voting_System
-👩‍💼 User Roles
-Admin
-Create/manage elections
+```
 
-Add/manage candidates
+---
 
-Register voters
+## 👩‍💼 User Roles
 
-View results
+### Admin
+- Create/manage elections  
+- Add/manage candidates  
+- Register voters  
+- View results  
 
-Voter
-Register and log in
+### Voter
+- Register and log in  
+- Cast one vote per election  
 
-Cast one vote per election
+---
 
-🔒 Notes
-Works with XAMPP default settings (root user, no password)
+## 🔒 Notes
+- Works with XAMPP default settings (`root` user, no password`)  
+- Always import the database before running the app  
+- Enable sessions in PHP if disabled  
+- For production, set a MySQL password and configure `config.php` accordingly  
 
-Always import the database before running the app
+---
 
-Enable sessions in PHP if disabled
-
-For production, set a MySQL password and configure config.php accordingly
-
-📄 License
+## 📄 License
 This project is open-source and free to use for learning or real-world applications.
+
 
