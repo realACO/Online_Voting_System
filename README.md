@@ -5,13 +5,17 @@ It provides a simple and secure way to manage elections, register voters, and al
 
 ---
 
-## 🚀 Features
+## 🚀 Features and screenshots
 
 - Admin and Voter login system  
 - Admin can create and manage elections  
 - Admin can add/manage candidates  
 - Voters can register and cast one vote per election  
 - Results page to display election outcomes  
+
+<img width="1352" height="639" alt="OVS" src="https://github.com/user-attachments/assets/8d19bfda-49f3-4555-a622-527f3f8653f6" />
+<img width="1366" height="637" alt="Capture" src="https://github.com/user-attachments/assets/1fda4963-0ae1-4b50-80aa-eecbcac8fb6b" />
+
 
 ---
 
